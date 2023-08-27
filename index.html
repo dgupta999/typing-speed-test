@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">TEST YOUR TYPING SPEED:</h2>
+        <div class="result">
+        <p>Words Per Minute:</p><span id="wpm"></span>
+        <p>Characters:</p><span id="char"></span>
+        </div>
+        </div>
+    <div class="box">
+        <p id="text"></p>
+        </div>
+        <div class="flex">
+        <input type="text" id="input" placeholder="Type the text you see above..">
+        </div>
+        <div class="flex">
+        <button id="btn" onclick="check()">Check</button></div>
+        <script src="app.js"></script>
+</body>
+</html>
